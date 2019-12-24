@@ -5,19 +5,30 @@ The `R` object `Lai_et_al_2020_JEcol_boral_output.rds` contains the data input a
 > Lai HR, KY Chong, ATK Yee, HTW Tan, and M van Breugel (2020) Functional traits that moderate tropical tree recruitment during post-windstorm secondary succession. *Journal of Ecology*
 
 ## Using the data
-We analysed the data using the `boral` package in `R` (see version in Lai et al. 2020), therefore you will need to install `boral` to access most of the data input and model output easily:
+We analysed the data using the `boral` package in `R` (see versions in Lai et al. 2020), therefore you will need to install `boral` to access most of the data input and model output easily:
 
 ```install.packages("boral")```
 
-and then read our `boral` object:
+and then import our `boral` object into your `R` session:
 
 ```mod <- readRDS("Lai_et_al_2020_JEcol_boral_output.rds")```
 
-Next, see `help(boral)` to access many of its well-documented functions. As a start, `summary(mod)` will be most useful.
+Next, see `help(boral)` to access many of its well-documented functions or give Hui (2016) *MEE* a read (see `citation("boral")`). As a start, `summary(mod)` will be most useful for an overview of all our parameter estimates, though we've done our best to show the most informative model summaries in our Supplementary Information.
 
+The data inputs are formatted the way `boral` likes it and are accessible via:
+
+- Community data a.k.a. site--species matrix: `mod$Y`
+- Environmental covariates: `mod$X`
+- Trait data: `mod$traits
+
+Please note that both environmental covariates and traits were centered to zero mean and scaled to unit standard deviation, as described in Lai et al. (2020). For the trait data, only the leaf traits are collected by us *in situ*, while the other traits are a mixture of our field collection and published datasets, or entirely the latter. Therefore, these traits from various sources are probably more suitable to be used to scrutinise our analyses (or a meta-analysis) than used as raw trait inputs for another analysis. The leaf traits that were collected from our field sites are accessible from the file `Lai_et_al_2020_JEcol_leaf_traits.rds`, and note that both specific leaf area (`SLA`) and lamina thickness (`Th`) are log~*e*~-transformed as described in our paper. If you use these leaf traits, please cite an earlier paper in which they had been used:
+> Yee, A. T. K., Lai, H. R., Chong, K. Y., Neo, L., Koh, C. Y., Tan, S. Y., … Tan, H. T. W. (2019). Short-term responses in a secondary tropical forest after a severe windstorm event. *Journal of Vegetation Science*, 30(4), 720--731. https://doi.org/10.1111/jvs.12753
 
 ## Citation
 
+- For leaf trait data: Yee, A. T. K., Lai, H. R., Chong, K. Y., Neo, L., Koh, C. Y., Tan, S. Y., … Tan, H. T. W. (2019). Short-term responses in a secondary tropical forest after a severe windstorm event. *Journal of Vegetation Science*, 30(4), 720--731. https://doi.org/10.1111/jvs.12753
+
+- For everything else: Lai HR, KY Chong, ATK Yee, HTW Tan, and M van Breugel (2020) Functional traits that moderate tropical tree recruitment during post-windstorm secondary succession. *Journal of Ecology*
 
 ## Contact
-[hrlai.ecology@gmail.com](mailto:hrlai.ecology@gmail.com)
+I'll endeavour to reply to your inquiry: [hrlai.ecology@gmail.com](mailto:hrlai.ecology@gmail.com)
