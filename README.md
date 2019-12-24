@@ -31,4 +31,4 @@ Please note that both environmental covariates and traits were centered to zero 
 - For everything else: Lai HR, KY Chong, ATK Yee, HTW Tan, and M van Breugel (2020) Functional traits that moderate tropical tree recruitment during post-windstorm secondary succession. *Journal of Ecology*
 
 ## Contact
-I'll endeavour to reply to your inquiry: [hrlai.ecology@gmail.com](mailto:hrlai.ecology@gmail.com)
+Hao Ran Lai [hrlai.ecology@gmail.com](mailto:hrlai.ecology@gmail.com)
