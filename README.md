@@ -34,5 +34,7 @@ We believe that the sharing of datasets is important for advancing ecology. At t
 
 If this dataset forms the entirety or >50% of your own dataset used for a publication, we suggest that you might raise the possibility of coauthorship with the corresponding authors of the papers above (depending on the circumstances coauthorship may or may not be appropriate, but let's have a conversation at least).
 
+See the [LICENSE](https://github.com/hrlai/Lai_et_al_2020_JEcol_Trait_Env/blob/master/LICENSE.md) file for license rights and limitations (CC-BY-4.0).
+
 ## Contact
 Hao Ran Lai [hrlai.ecology@gmail.com](mailto:hrlai.ecology@gmail.com)
