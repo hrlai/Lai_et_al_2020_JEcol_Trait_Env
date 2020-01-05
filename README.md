@@ -14,7 +14,9 @@ library(boral)
 
 and then import our `boral` object into your `R` session:
 
-```mod <- readRDS("Lai_et_al_2020_JEcol_boral_output.rds")```
+```
+mod <- readRDS("Lai_et_al_2020_JEcol_boral_output.rds")
+```
 
 Next, see `help(boral)` to access many of its well-documented functions or give Hui (2016) *MEE* a read (see `citation("boral")`). As a start, `summary(mod)` will be most useful for an overview of all our parameter estimates, though we've done our best to show the most informative model summaries in our Supplementary Information.
 
