@@ -7,7 +7,8 @@ The `R` object `Lai_et_al_2020_JEcol_boral_output.rds` contains the data input a
 ## Usage
 We analysed the data using the `boral` package in `R` (see versions in Lai et al. 2020), therefore you will need to install `boral` to access most of the data input and model output easily:
 
-```install.packages("boral")```
+```install.packages("boral")
+library(boral)```
 
 and then import our `boral` object into your `R` session:
 
