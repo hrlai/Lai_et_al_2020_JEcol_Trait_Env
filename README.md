@@ -5,7 +5,7 @@ The `R` object `Lai_et_al_2020_JEcol_boral_output.rds` contains the data input a
 > Lai, H. R., Chong, K. Y., Yee, A. T. K., Tan, H. T. W., & van Breugel, M. (2020). Functional traits that moderate tropical tree recruitment during post‐windstorm secondary succession. *Journal of Ecology*. https://doi.org/10.1111/1365-2745.13347
 
 ## Usage
-We analysed the data using the `boral` package in `R` (see versions in Lai et al. 2020), therefore you will need to install `boral` to access most of the data input and model output easily:
+We analysed the data using the `boral` v1.6 package in `R` (see versions in Lai et al. 2020), therefore you will need to install `boral` to access most of the data input and model output easily:
 
 ```
 install.packages("boral")
@@ -30,6 +30,14 @@ Please note that both environmental covariates and traits were centered to zero 
 > Yee, A. T. K., Lai, H. R., Chong, K. Y., Neo, L., Koh, C. Y., Tan, S. Y., … Tan, H. T. W. (2019). Short-term responses in a secondary tropical forest after a severe windstorm event. *Journal of Vegetation Science*, 30(4), 720--731. https://doi.org/10.1111/jvs.12753
 
 If you use traits other than the leaf traits, please refer to our Supplementary Information for citations and original data sources or, better yet, make a new data request from [TRY](https://www.try-db.org/TryWeb/Home.php).
+
+## Potential issues
+
+- Because our model was fitted with an older version of `boral` (v1.6), you may run into compatibility issue with newer package versions. If so, try using the same version of `boral`: 
+```
+require(devtools)
+install_version("boral", version = "1.6")
+```
 
 ## Citation
 We believe that the sharing of datasets is important for advancing ecology. At the same time, for data sharing to be successful and sustainable, it is important that those individuals whose time and efforts generated the data are acknowledged. Therefore, when you use the data or model output in your original research or meta-analysis, we appreciate if the following papers are cited:
