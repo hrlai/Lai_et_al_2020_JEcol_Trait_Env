@@ -1,4 +1,4 @@
-# Data for Lai et al. (2020) *J. Ecol*
+# Data for Lai et al. (2020) *J. Ecol.*
 
 ## About
 The `R` object `Lai_et_al_2020_JEcol_boral_output.rds` contains the data input and the `boral` model output described in
