@@ -51,3 +51,6 @@ See the [LICENSE](https://github.com/hrlai/Lai_et_al_2020_JEcol_Trait_Env/blob/m
 
 ## Contact
 Hao Ran Lai [hrlai.ecology@gmail.com](mailto:hrlai.ecology@gmail.com)
+
+## Journal blog post
+Might as well shamelessly advertise our blog post on the [*Journal of Ecology* website](https://jecologyblog.com/2020/07/01/functional-traits-that-moderate-tropical-tree-recruitment-during-post%E2%80%90windstorm-secondary-succession/).
