@@ -1,5 +1,7 @@
 # Data for Lai et al. (2020) *J. Ecol.*
 
+[![](https://img.shields.io/badge/doi-doi.org/10.1111/1365--2745.13347-yellow.svg)](https://doi.org/doi.org/10.1111/1365-2745.13347)
+
 ## About
 The `R` object `Lai_et_al_2020_JEcol_boral_output.rds` contains the data input and the `boral` model output described in
 > Lai, H. R., Chong, K. Y., Yee, A. T. K., Tan, H. T. W., & van Breugel, M. (2020). Functional traits that moderate tropical tree recruitment during post-windstorm secondary succession. *Journal of Ecology*, 108, 1322--1333. doi: 10.1111/1365-2745.13347
