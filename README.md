@@ -1,6 +1,6 @@
 # Data for Lai et al. (2020) *J. Ecol.*
 
-[![](https://img.shields.io/badge/doi-doi.org/10.1111/1365--2745.13347-yellow.svg)](https://doi.org/doi.org/10.1111/1365-2745.13347)
+[![](https://img.shields.io/badge/doi-doi.org/10.1111/1365--2745.13347-yellow.svg)](https://doi.org/10.1111/1365-2745.13347)
 
 ## About
 The `R` object `Lai_et_al_2020_JEcol_boral_output.rds` contains the data input and the `boral` model output described in
