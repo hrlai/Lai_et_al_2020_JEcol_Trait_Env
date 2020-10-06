@@ -40,7 +40,7 @@ If you use traits other than the leaf traits, please refer to our Supplementary 
 require(devtools)
 install_version("boral", version = "1.6")
 ```
-
+- `predict.boral()` in `boral` v1.9 (and potentially future versions) breaks with models fitted with `boral` v1.7, so I guess it'll also break with our model.
 ## Citation
 We believe that the sharing of datasets is important for advancing ecology. At the same time, for data sharing to be successful and sustainable, it is important that those individuals whose time and efforts generated the data are acknowledged. Therefore, when you use the data or model output in your original research or meta-analysis, we appreciate if the following papers are cited:
 
