@@ -24,7 +24,7 @@ Next, see `help(boral)` to access many of its well-documented functions or give 
 
 The data inputs are formatted the way `boral` likes it and are accessible via:
 
-- Community data a.k.a. site--species matrix: `mod$Y`
+- Community data a.k.a. site--species matrix: `mod$y`
 - Environmental covariates: `mod$X`
 - Trait data: `mod$traits`
 
